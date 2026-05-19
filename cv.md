@@ -51,19 +51,19 @@ Remote | Sep 2025 - Dec 2025
 
 **Tech:** Python, MCP, LLMs, Docker, AWS
 
-- Investigated the proposed AIP-91 MCP server for natural-language LLM interaction with Apache Airflow
+- Investigated the proposed AIP-91 MCP server for natural-language LLM interaction with Apache Airflow, as part of the MLH Fellowship
 - Analyzed discussions from AWS engineers and the Airflow PMC
 - Developed and validated Airflow metrics using OpenTelemetry to track DAG parse times across versions
 
 ---
 
-## Meta x MLH
+## Meta
 **Production Engineer Fellow**  
 Remote | Jun 2025 - Sep 2025
 
 **Tech:** Python, Docker, Linux, Bash, MySQL, Flask, NGINX
 
-- Selected as one of 44 fellows from 4,000+ applicants
+- Selected as one of 44 fellows from 4,000+ applicants for a Meta x MLH fellowship
 - Automated CI/CD pipelines via Bash, reducing deployment time by 90%
 - Increased deployment frequency by 30%
 - Optimized NGINX infrastructure to handle 10k+ requests/minute
@@ -100,7 +100,7 @@ Remote | Apr 2024 - Sep 2025
 ---
 
 ## Global Affairs Canada
-**Junior Developer Co-op**  
+**Data Engineer Intern**  
 Gatineau, Canada | Jun 2024 - Dec 2024
 
 **Tech:** T-SQL, SSMS, SSIS, Visual Studio, Git, Agile
