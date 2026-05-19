@@ -73,6 +73,57 @@ Remote | Jun 2025 - Sep 2025
 
 ---
 
+## HackVerify
+**Founder**  
+Ottawa, Canada | Mar 2025 - Mar 2026
+
+**Tech:** Python, Supabase, Beautiful Soup, SQL, JavaScript, Flask
+
+- Building a tool that automates cheat checks for software competitions, speeding verification processes by 90%+
+- Web scraped large amounts of data using Beautiful Soup and analyzed patterns to detect cheating
+- Implemented LinkedIn OAuth to simplify login, signup, and verification flows
+- Stored scraped and verification data in Supabase for secure authenticated access
+
+---
+
+## SunnySide
+**Software Engineer**  
+Remote | Apr 2024 - Sep 2025
+
+**Tech:** Python, Supabase, TypeScript, React Native
+
+- Implemented Supabase Auth for Google Sign-In, improving accessibility and authentication workflows
+- Developed responsive login, registration, and mood-tracking pages across mobile platforms
+- Performed testing and simulations through Android Emulator to ensure cross-device compatibility
+- Transformed Figma designs into mobile-responsive React Native components
+
+---
+
+## Global Affairs Canada
+**Junior Developer Co-op**  
+Gatineau, Canada | Jun 2024 - Dec 2024
+
+**Tech:** T-SQL, SSMS, SSIS, Visual Studio, Git, Agile
+
+- Designed ETL pipelines for a large-scale data migration project
+- Performed T-SQL queries to extract and transform data for migration workflows
+- Created functions and stored procedures to identify inconsistencies in source data
+- Collaborated with teams to streamline migration workflows and reduce migration errors
+
+---
+
+## CU InSpace - Carleton Rocketry
+**Embedded Software Engineer**  
+Ottawa, Canada | Feb 2024 - May 2024
+
+**Tech:** C, QNX, LoRa, Shell Scripting, Git
+
+- Wrote C code interfacing with hardware and transmitting real-time telemetry over LoRa using QNX
+- Implemented GNSS metadata blocks storing GPS and GLONASS satellite usage data
+- Encoded sensor data into radio packets for transmission to the ground station via websocket distribution
+
+---
+
 # Projects
 
 ## Autonomous Inspection Robot
@@ -98,3 +149,27 @@ Jan 2025
 - Sent sensor data to Raspberry Pi via I2C
 - Implemented QNX-based real-time movement control software
 - Built autonomous navigation logic for responsive movement
+
+---
+
+## FoodBank AI — Hack the Hill
+Sep 2024
+
+**Tech:** Python, ResNet, PyTorch, Flask, React, PostgreSQL
+
+- Fine-tuned a pretrained ResNet model for food image classification using 3800+ food images
+- Leveraged PyTorch for model fine-tuning, achieving a 20%+ classification accuracy improvement
+- Optimized preprocessing with batch processing, reducing inference time by 30%+
+- Designed and implemented a PostgreSQL database to manage user points and food submissions
+
+---
+
+## AI Chatbot
+Jun 2023
+
+**Tech:** Python, TensorFlow, Keras, Waitress, Flask, JavaScript, HTML/CSS
+
+- Developed an intelligent chatbot using TensorFlow and Keras to mimic human conversation
+- Trained the chatbot model on curated conversational patterns, tags, and responses
+- Revamped the frontend UI using HTML/CSS to improve user experience
+- Deployed the application using Waitress and Flask
