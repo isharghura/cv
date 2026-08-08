@@ -21,17 +21,10 @@ Remote | May 2026 - Aug 2026
 
 **Tech:** Apache Spark, Scala, Maven, Python, Bash, Docker, Kubernetes, Kind, Colima, GitHub Actions, Armada
 
-- Redesigned the build system for a Spark-on-Kubernetes scheduler by replacing an imperative shell script that
-mutated pom.xml with 7 declarative Maven profiles supporting Scala 2.12/2.13 and Spark 3.3/3.5/4.1, adding an
-Ant-based validator to fail fast on invalid version combinations
-- Enabled single-command, version-targeted builds via auto-activating Maven profiles driven by environment
-variables, replacing a fragile version-rewriting script spanning 16 files and 2 CI workflows
-- Rewrote a Bash-based E2E test orchestration pipeline in Python, improving error handling, readability, and
-maintainability across Armada cluster startup, Docker image loading, and Spark test execution
-- Resolved multi-platform Docker image compatibility issues with kind load docker-image by implementing
-digest-based image resolution and re-tagging for local Kind/Colima environments
-- Collaborated on a 61-commit, 16-file pull request merged into the open-source armada-project/armada
-scheduler, coordinating CI pipeline changes across GitHub Actions build and E2E workflows
+- Built a Python-based E2E test orchestration tool for a distributed job scheduler (Armada), automating cluster provisioning, Docker image validation, and Maven/Scala test execution in CI and local dev environments
+- Solved a multi-platform Docker image compatibility issue by resolving manifest-list images to host-specific digests via the Docker/registry API, preventing kind load failures in containerd-backed environments
+- Replaced fragile shell scripts with a robust Python CLI integrated into GitHub Actions, adding real-time log streaming, structured error handling, and deterministic validation gates to eliminate silent pipeline failures
+- Redesigned a Spark-on-Kubernetes build system, replacing imperative shell scripts with declarative Maven profiles and an Ant-based validator to support single-command builds across Scala 2.12/2.13 and Spark 3.3/3.5/4.1
 
 ---
 
