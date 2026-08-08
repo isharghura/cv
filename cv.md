@@ -16,7 +16,7 @@ New York City, USA | May 2026 - Aug 2026
 - Cloud Authentication & Deployment: Managed API integrations and secure authentication flows using Google Application Default Credentials and cloud service accounts.
 
 ## G-Research
-**Software Engineer Fellow**  
+**Software Engineer Intern**  
 Remote | May 2026 - Aug 2026
 
 **Tech:** Apache Spark, Scala, Maven, Python, Bash, Docker, Kubernetes, Kind, Colima, GitHub Actions, Armada
@@ -73,7 +73,7 @@ documentation, accelerating onboarding and reducing configuration errors
 ---
 
 ## Apache Airflow
-**Software Engineer Fellow**  
+**Software Engineer Intern**  
 Remote | Sep 2025 - Dec 2025
 
 **Tech:** Python, MCP, LLMs, Docker, AWS
@@ -85,7 +85,7 @@ enabling natural-language LLM interaction with Apache Airflow, as part of the ML
 ---
 
 ## Meta
-**Production Engineer Fellow**  
+**Production Engineer Intern**  
 Remote | Jun 2025 - Sep 2025
 
 **Tech:** Python, Docker, Linux, Bash, MySQL, Flask, NGINX
