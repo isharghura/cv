@@ -1,13 +1,37 @@
 # Experience
 
+## Frizzle (YC S25)
+**ML Engineer Intern**  
+New York City, USA | May 2026 - Aug 2026
+
+**Tech:** Python, Google Cloud Platform, Vertex AI, LangSmith, Pydantic, OpenAI, Anthropic, Azure AI Foundry
+
+- Unified LLM Infrastructure: Developed a Python-based LLM inference engine to dynamically route asynchronous requests across Google Vertex AI, Azure Foundry, AWS Bedrock, and OpenAI.
+- Custom Dataset Curation: Compiled and formatted specialized datasets of real student math assignments for model training, testing, and performance benchmarking.
+- Data Quality Assurance: Conducted rigorous data quality reviews using a hybrid approach of manual inspection, Python scripting, and programmatic LLM verification.
+- Automated Evaluation Pipelines: Built an LLM-as-a-judge evaluation framework utilizing Gemini 2.5 Pro to systematically benchmark frontier models including Claude, GPT, and Llama.
+- Experiment Tracking: Integrated LangSmith into the evaluation pipeline to log experiment sessions, trace token usage, and monitor multi-provider costs.
+- Model Fine-Tuning: Fine-tuned Gemini 2.5 Flash Lite on Google Cloud Vertex AI using custom instructional data to improve domain-specific math grading accuracy.
+- Structured Output Engineering: Built dynamic schema parsers to translate complex Pydantic models into strict, provider-compatible JSON schemas.
+- Cloud Authentication & Deployment: Managed API integrations and secure authentication flows using Google Application Default Credentials and cloud service accounts.
+
 ## G-Research
 **Software Engineer Fellow**  
 Remote | May 2026 - Aug 2026
 
-**Tech:** Python, Bash, Kubernetes, Go
+**Tech:** Apache Spark, Scala, Maven, Python, Bash, Docker, Kubernetes, Kind, Colima, GitHub Actions, Armada
 
-- Contributing to Armada Operator, an open-source Kubernetes batch scheduler, via MLH Fellowship
-- Migrating legacy Bash scripts to Python, improving maintainability and scalability of job orchestration automation
+- Redesigned the build system for a Spark-on-Kubernetes scheduler by replacing an imperative shell script that
+mutated pom.xml with 7 declarative Maven profiles supporting Scala 2.12/2.13 and Spark 3.3/3.5/4.1, adding an
+Ant-based validator to fail fast on invalid version combinations
+- Enabled single-command, version-targeted builds via auto-activating Maven profiles driven by environment
+variables, replacing a fragile version-rewriting script spanning 16 files and 2 CI workflows
+- Rewrote a Bash-based E2E test orchestration pipeline in Python, improving error handling, readability, and
+maintainability across Armada cluster startup, Docker image loading, and Spark test execution
+- Resolved multi-platform Docker image compatibility issues with kind load docker-image by implementing
+digest-based image resolution and re-tagging for local Kind/Colima environments
+- Collaborated on a 61-commit, 16-file pull request merged into the open-source armada-project/armada
+scheduler, coordinating CI pipeline changes across GitHub Actions build and E2E workflows
 
 ---
 
