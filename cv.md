@@ -2,7 +2,7 @@
 
 ## Frizzle (YC S25)
 **ML Engineer Intern**  
-New York City, USA | May 2026 - Aug 2026
+New York City, USA | May 2026 - Sep 2026
 
 **Tech:** Python, Google Cloud Platform, Vertex AI, LangSmith, Pydantic, OpenAI, Anthropic, Azure AI Foundry
 
