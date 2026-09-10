@@ -65,6 +65,14 @@ documentation, accelerating onboarding and reducing configuration errors
 
 ---
 
+## Cansbridge Scholars
+**Scholar**  
+Oct 2025 - Dec 2025
+ 
+- Completed [Foundations](https://www.cansbridgescholars.com/courses/foundations), an 8-week online and in-person course focused on identifying personal purpose and translating ideas into action
+
+---
+
 ## Apache Airflow
 **Software Engineer Intern**  
 Remote | Sep 2025 - Dec 2025
